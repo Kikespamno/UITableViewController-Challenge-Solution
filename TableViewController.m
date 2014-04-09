@@ -82,6 +82,17 @@
         cell.textLabel.text = [NSString stringWithFormat:@"Cell %i", indexPath.row];
     }
     
+    if (indexPath.section ==0)
+    {
+        cell.backgroundColor = [UIColor redColor];
+    } else if (indexPath.section == 1)
+    {
+        cell.backgroundColor = [UIColor blueColor];
+    } else if (indexPath.section == 2)
+    {
+        cell.backgroundColor = [UIColor yellowColor];
+    }
+    
     // Configure the cell...
     
     return cell;
