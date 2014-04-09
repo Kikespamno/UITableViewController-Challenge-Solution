@@ -51,8 +51,8 @@
 		2152C18418F5BEBC001F2285 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		2152C18618F5BEBC001F2285 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2152C18818F5BEBC001F2285 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
-		2152C19218F5C273001F2285 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		2152C19318F5C273001F2285 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		2152C19218F5C273001F2285 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		2152C19318F5C273001F2285 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,6 @@
 		2152C15118F5BEBC001F2285 = {
 			isa = PBXGroup;
 			children = (
-				2152C19218F5C273001F2285 /* TableViewController.h */,
-				2152C19318F5C273001F2285 /* TableViewController.m */,
 				2152C16318F5BEBC001F2285 /* UITableViewController Challenge Solution */,
 				2152C18218F5BEBC001F2285 /* UITableViewController Challenge SolutionTests */,
 				2152C15C18F5BEBC001F2285 /* Frameworks */,
@@ -115,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				2152C16C18F5BEBC001F2285 /* AppDelegate.h */,
+				2152C19218F5C273001F2285 /* TableViewController.h */,
+				2152C19318F5C273001F2285 /* TableViewController.m */,
 				2152C16D18F5BEBC001F2285 /* AppDelegate.m */,
 				2152C16F18F5BEBC001F2285 /* Main.storyboard */,
 				2152C17518F5BEBC001F2285 /* Images.xcassets */,
